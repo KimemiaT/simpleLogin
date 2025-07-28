@@ -20,8 +20,6 @@ Opens at: http://localhost:3000
 
 TESTING
 
-Cypress GUI: npm run cypress:open Visual Testing: npm run percy:exec API Testing: cd backend && npm test
-
 Note Please:
 
 No DB, works 100% offline.
