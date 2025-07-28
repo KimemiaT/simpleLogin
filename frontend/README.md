@@ -1,0 +1,62 @@
+
+This is a very lightweight fullstack project ; As per the instructions given in the email shared about the test previously, I included:
+
+ React frontend
+ Node.js (Express) backend
+ Cypress for UI testing
+ Percy for visual regression
+ Supertest + Jest for API testing
+
+
+ Login form (username + password)
+ In-memory authentication ( username is :admin / password is: 1234)
+ Todo list with add/edit/delete
+ No database — quick to run and test
+
+
+
+
+```bash
+git clone <repo_url> simple-login
+cd simple-login
+```
+ Or unzip if you downloaded manually.
+
+
+
+2. Start the Backend
+
+```bash
+cd backend
+npm install
+node index.js
+```
+
+- Runs at: `http://localhost:4000`
+
+---
+
+3. Start the Frontend
+
+```bash
+cd ../frontend
+npm install
+npm start
+```
+
+ Opens at: `http://localhost:3000`
+
+
+TESTING
+
+Cypress GUI: `npm run cypress:open`
+Visual Testing: `npm run percy:exec`
+API Testing: `cd backend && npm test`
+
+---
+
+ Note Please:
+
+ No DB, works 100% offline.
+
+---
