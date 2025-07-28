@@ -17,7 +17,7 @@ This is a very lightweight fullstack project ; As per the instructions given in 
 
 
 ```bash
-git clone <repo_url> simple-login
+git clone <https://github.com/KimemiaT/simpleLogin.git> simpleLogin
 cd simple-login
 ```
  Or unzip if you downloaded manually.
