@@ -1,8 +1,7 @@
-This is a very lightweight fullstack project ; As per the instructions given in the email shared about the test previously, I included:
-
+This is a very lightweight fullstack project ; 
 React frontend Node.js (Express) backend Cypress for UI testing Percy for visual regression Supertest + Jest for API testing
 
-Login form (username + password) In-memory authentication ( username is :admin / password is: 1234) Todo list with add/edit/delete No database — quick to run and test
+Login form (username + password) In-memory authentication ( username is :admin / password is: 1234) Todo list with add/edit/delete No database , quick to run and test
 
 git clone <https://github.com/KimemiaT/simpleLogin.git> simpleLogin
 cd simple-login
